@@ -8,27 +8,20 @@
     <title>Inline Model</title>
 
     <style>
-        .box {
-            background-color: red;
-            font-size: 40px;
-        }
-
-        .box:hover {
-            background-color: pink;
-        }
-
-        .box:active {
+        body {
             background-color: green;
         }
 
-        .box:focus {
-            background-color: blue;
+        @media screen and (min-width:320px) and (max-width:640px) {
+            body {
+                background-color: blue;
+            }
         }
     </style>
 </head>
 
 <body>
-    <textarea class="box">llalalalalalspan</textarea>
+
 </body>
 
 </html>
